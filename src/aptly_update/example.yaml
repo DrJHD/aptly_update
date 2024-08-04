@@ -1,0 +1,5 @@
+- 
+  name: bookworm
+  mirrors:
+    - bookworm-main
+    - bookworm-security

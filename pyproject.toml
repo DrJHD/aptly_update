@@ -1,0 +1,24 @@
+# pyproject.toml
+
+[project]
+name = "aptly-update"
+version = "1.0.0"
+description = "Update aptly, including non-Debian packages for which plugins are available"
+readme = "Readme.md"
+authors = [{ name = "John Davies" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: Apache-2.0",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["aptly", "update"]
+dependencies = [
+    "argparse",
+    "datetime",
+    "platform",
+    "subprocess",
+    "sys",
+    "yaml",
+]
+requires-python = ">=3.7"

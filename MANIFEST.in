@@ -1,0 +1,4 @@
+# MANIFEST.in
+
+include /src/aptly-update/example.yaml
+include /src/aptly-update/plugins/vscode.py
